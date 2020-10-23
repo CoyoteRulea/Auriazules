@@ -1,0 +1,6 @@
+---
+  deployment:
+    tasks:
+      - export DEPLOYPATH=/home/psycomet/auriazules.com/
+      - /bin/cp -R web/* $DEPLOYPATH
+
